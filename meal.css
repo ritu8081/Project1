@@ -22,6 +22,71 @@ body{
     font-weight:1000;
 
 }
-.image .black h1{
-    color: white;
+.heading h3
+{
+    text-align: center;
+     margin-top: 50px;
+}
+.heading p
+{
+    text-align: center;
+    color: orangered;
+    font-size:50px;
+    font-weight: 1000;
+    margin-top: 0;
+}
+.slider
+{
+    width: 1000px;
+    margin-left: 300px;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;  
+    
+}
+li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+li a:active{
+    border: 1px solid greenyellow;
+    border-radius: 20px;
+    color: greenyellow;
+    padding: 10px;
+}
+#HappyMeal{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+#HappyMed
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.imag{
+    width:400px;
+    height:400px;
+    background-image: url("https://lh3.googleusercontent.com/rNns3fLSB6agVZm-JIocrTO261oS3rfMLlaec-SspxWOQ1qa7ZMo0ATdAB4cTVINIf2bgNNhEG_caTD61W4SmDvP3Jg=w500-rw");
+    background-size: cover;
+}
+.table{
+    width:600px;
+    height: 400px;
+    border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table,tr,td{
+     border:1px solid black;
+     border-collapse: collapse;
 }

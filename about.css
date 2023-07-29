@@ -1,0 +1,36 @@
+.align{
+    /* border: 1px solid black; */
+    margin-top: 70px;
+    height:500px;
+    display:flex;
+    flex-direction: row;
+
+}
+.image1{
+    width:500px;
+    height: 500px;
+    background-size: cover;
+    background-image: url("https://greensoulkitchens.in/wp-content/uploads/2022/12/Group-1504-1.png");
+    margin-left: 100px;
+}
+.story{
+    text-align:start;
+    /* border: 1px solid black; */
+    margin-left: 100px;
+    width:600px;
+    height: 500px;
+}
+.story h1{
+    color: orangered;
+    font-size:70px;
+    margin-top: 0;
+    font-weight: bolder;
+   
+   
+}
+.story p{
+    color: green;
+    font-size: larger;
+    font-weight: 600;
+    
+}

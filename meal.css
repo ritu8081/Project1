@@ -27,6 +27,7 @@ body{
 {
     text-align: center;
      margin-top: 50px;
+     color: orangered;
 }
 .heading p
 {
@@ -42,9 +43,9 @@ body{
 }
 .side1
 {
-    height:650px;
+    height:570px;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 40px;
     background-color: orange;
 }
 .side1 img{
@@ -63,24 +64,11 @@ body{
 .side2
 {
     text-align: center;
-    height:650px;
+    height:570px;
     background-color:orange;
     color: white;
     /* border: 1px solid black; */
 }
-.side2 .table{
-    width:600px;
-    height: 400px;
-    margin-top: 20px;
-   
-    
-}
-
-.side2 table,tr,td{
-     
-    border-collapse: collapse;
-    
-}
 
 
 
@@ -89,53 +77,4 @@ body{
 
 
 
-.slider
-{
-    width: 1000px;
-    margin-left: 300px;
-}
-ul{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style-type: none;  
-    
-}
-li a{
-    text-decoration: none;
-    color:black;
-    font-size: 20px;
-}
-li a:active{
-    border: 1px solid greenyellow;
-    border-radius: 20px;
-    color: greenyellow;
-    padding: 10px;
-}
-#HappyMeal{
-    display: flex;
-    flex-direction: row;
-    margin-left: 200px;
-    margin-top: 50px;
-}
-#HappyMed
-{
-    display: flex;
-    flex-direction: row;
-    margin-left: 200px;
-    margin-top: 50px;
-}
-
-
-
-
-
-
-
-.imag{
-    width:400px;
-    height:400px;
-    background-image: url("https://lh3.googleusercontent.com/rNns3fLSB6agVZm-JIocrTO261oS3rfMLlaec-SspxWOQ1qa7ZMo0ATdAB4cTVINIf2bgNNhEG_caTD61W4SmDvP3Jg=w500-rw");
-    background-size: cover;
-}
 

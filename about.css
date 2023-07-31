@@ -1,5 +1,31 @@
-.align{
-    /* border: 1px solid black; */
+body{
+    margin: 0;
+    background-color: rgb(246, 193, 94);
+}
+.img1
+{
+    background-image: url("https://img.restaurantsbrighton.co.uk/wp-content/uploads/2022/10/lqseUQps.jpeg");
+    width: 100%;
+    height:500px;
+    background-size: cover;
+}
+.img1 .black{
+    width: 100%;
+    height:500px;
+    background-color: rgb(24, 1, 1,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1 .black p{
+    color:white;
+    font-size: 50px;
+    font-weight:500;
+
+}
+
+/* .align{ */
+    /* border: 1px solid black;
     margin-top: 70px;
     height:500px;
     display:flex;
@@ -13,11 +39,37 @@
     background-image: url("https://greensoulkitchens.in/wp-content/uploads/2022/12/Group-1504-1.png");
     margin-left: 100px;
    
+} */
+.row
+{
+    margin-top: 30px;
 }
-.story{
+.img2
+{
+    /* border: 1px solid black; */
+    height:500px;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+}
+.img2 img{
+    height: 500px;
+}
+.story
+{
+    /* border: 1px solid black; */
+    background-color: orange;
+}
+.story p{
+    color: white;
+}
+
+
+
+/* .story{
     text-align:start;
     /* border: 1px solid black; */
-    margin-left: 100px;
+    /* margin-left: 100px;
     width:600px;
     height: 500px;
 }
@@ -30,11 +82,16 @@
    
 }
 .story p{
-    color: green;
+    color: black;
     font-size: larger;
     font-weight: 600;
     
 }
+
+
+
+
+
 .yellow
 {
     display: flex;
@@ -63,4 +120,4 @@
     
     margin-right: 150px;
     background-color: white;
-}
+} */ 

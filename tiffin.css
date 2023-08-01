@@ -1,6 +1,8 @@
 body
 {
     margin: 0px;
+    background-color: rgb(246, 193, 94);
+
 }
 
 .container
@@ -20,10 +22,51 @@ body
     background-color: rgb(24, 1, 1, 0.7);
     justify-content: center;
     align-items: center;
-
-    
 }
 .container .black p{
     font-size: 50px;
     color: white;    
 }
+.container .black .t{
+    display: flex;
+    align-items: flex-end;
+} 
+
+.box
+{   display: flex;
+    border: 1px solid rgb(224, 145, 0);
+    height: 450px;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color:orange;
+    margin-top: 30px;
+
+}
+
+.box .image
+{   margin-top: 45px;
+    margin-left: 60px;   
+    height: 350px;
+    width: 450px;
+    border: 5px solid rgb(224, 145, 0);
+    background-image: url(https://greensoulkitchens.in/wp-content/uploads/2022/07/tiffinservices.jpg);
+    background-size: cover;
+    padding: 5px;
+}
+.box .text
+{
+    /* margin-top: 45px; */
+    margin-left: 45px;   
+    height: 400px;
+    width: 600px;
+    margin-right: 50px;
+}
+.box p{
+    font-size: 23px;
+}
+
+
+
+
+
+

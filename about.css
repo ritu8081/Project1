@@ -24,22 +24,12 @@ body{
 
 }
 
-/* .align{ */
-    /* border: 1px solid black;
-    margin-top: 70px;
-    height:500px;
-    display:flex;
-    flex-direction: row;
-
+h1{
+    text-align: center;
+    color: orangered;
+    margin-top: 30px;
+    font-weight: 700;
 }
-.image1{
-    width:500px;
-    height: 500px;
-    background-size: cover;
-    background-image: url("https://greensoulkitchens.in/wp-content/uploads/2022/12/Group-1504-1.png");
-    margin-left: 100px;
-   
-} */
 .row
 {
     margin-top: 30px;
@@ -50,18 +40,29 @@ body{
     height:500px;
     display: flex;
     justify-content: center;
-    background-color: orange;
+    margin-top: 30px;
+    /* background-color: orange; */
+    align-items: center;
 }
 .img2 img{
-    height: 500px;
+    height: 400px;
+    width: 400px;
+    border-radius: 500px;
 }
 .story
 {
     /* border: 1px solid black; */
     background-color: orange;
+    padding-top: 50px;
+    width:400px;
+    height:400px;
+    margin-top: 30px;
+    /* border-radius: 800px; */
 }
 .story p{
-    color: white;
+    color: black;
+    font-family:cursive;
+    font-size: 20px;
 }
 
 

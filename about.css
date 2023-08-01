@@ -1,6 +1,6 @@
 body{
     margin: 0;
-   background-color: #82C0CC;
+    background-color: rgb(235, 191, 88);
     font-family: cursive;
 }
 .img1
@@ -56,7 +56,7 @@ h1{
 .story
 {
     /* border: 1px solid black; */
-    background-color: #307988;
+    background-color: rgb(226, 158, 48);
     padding-top:50px;
     width:400px;
     height:500px;

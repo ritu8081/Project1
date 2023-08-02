@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    background-color: rgb(246, 193, 94);
+   background-color: #82C0CC;
+    font-family: cursive;
 }
 .img1
 {
@@ -12,7 +13,7 @@ body{
 .img1 .black{
     width: 100%;
     height:500px;
-    background-color: rgb(24, 1, 1,0.5);
+    background-color: rgba(14, 54, 99, 0.3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,9 +27,10 @@ body{
 
 h1{
     text-align: center;
-    color: orangered;
+    color:white;
     margin-top: 30px;
     font-weight: 700;
+    font-family: cursive;
 }
 .row
 {
@@ -40,29 +42,84 @@ h1{
     height:500px;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-    /* background-color: orange; */
+    margin-top: 5px;
+    
     align-items: center;
+    /* background-color: #307988; */
 }
 .img2 img{
     height: 400px;
     width: 400px;
     border-radius: 500px;
+   
 }
 .story
 {
     /* border: 1px solid black; */
-    background-color: orange;
-    padding-top: 50px;
+    background-color: #307988;
+    padding-top:50px;
     width:400px;
-    height:400px;
-    margin-top: 30px;
+    height:500px;
+    margin-top: 5px;
+   
     /* border-radius: 800px; */
 }
+.story:hover{
+    background-color: #215c68;
+}
 .story p{
-    color: black;
+    color: white;
     font-family:cursive;
     font-size: 20px;
+}
+.yellow
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    
+    margin-top:30px;
+   
+
+}
+.mission{
+    width:600px;
+    height:400px;
+    
+    margin-left: 150px;
+    background-color: #307988;
+}
+.vision{
+    width:600px;
+    height:400px;
+    
+    margin-right: 150px;
+    background-color: #307988;
+}
+.yellow .img3 img{
+    width:150px;
+    height:150px;
+    margin-top: 20px;
+    border-radius: 150px;
+    margin-left:230px;
+} 
+/* .yellow h2{
+    font-family: cursive;
+    font-weight: 400;
+    padding-left: 30px;
+    margin-top: 40px;
+    color: orangered;
+} */
+.yellow p{
+    font-family: cursive;
+    font-weight: 400;
+    font-size: large;
+    padding-left: 30px;
+    color: white;
+    
 }
 
 
@@ -93,32 +150,3 @@ h1{
 
 
 
-.yellow
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 600px;
-    
-    margin-top:30px;
-    background-image: url("https://t4.ftcdn.net/jpg/04/03/12/69/360_F_403126938_idzkijeenmcoNlS170nM35iEHek9dbEB.jpg");
-    background-size: cover;
-    
-
-}
-.mission{
-    width:600px;
-    height:400px;
-    
-    margin-left: 150px;
-    background-color: white;
-}
-.vision{
-    width:600px;
-    height:400px;
-    
-    margin-right: 150px;
-    background-color: white;
-} */ 

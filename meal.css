@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    background-color: rgb(246, 193, 94);
+    background-color: #82C0CC;
+    font-family: cursive;
 }
 .img1
 {
@@ -27,12 +28,12 @@ body{
 {
     text-align: center;
      margin-top: 50px;
-     color: orangered;
+    font-family: cursive;
 }
 .heading p
 {
     text-align: center;
-    color: orangered;
+    font-family: cursive;
     font-size:50px;
     font-weight: 700;
     margin-top: 0;
@@ -55,11 +56,14 @@ body{
     margin-top: 30px;
     background-color: orangered;
     box-shadow: orangered;
-    color:white;
+    font-family: cursive;
     border-radius:50px;
     border-color: orangered;
     padding: 10px;
     width:150px;
+}
+.side1 h3{
+    font-family: cursive;
 }
 .side2
 {
@@ -69,6 +73,12 @@ body{
     color: white;
     /* border: 1px solid black; */
 }
+/* .side2 h2{
+    font-family: cursive;
+}
+.side2 h3{
+    font-family: cursive;
+} */
 
 
 

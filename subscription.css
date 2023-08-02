@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    background-color: #efdf69;
+    font-family: cursive;
+}
+.display-4
+{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 5px;
+}
+.sub
+{
+    width:100%;
+    height:600px;
+    /* border: 1px solid black; */
+    margin-top: 60px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.box
+{
+    width:400px;
+    height:500px;
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 50px;
+}
+.box:hover{
+    font-size: larger;
+    margin-left: 40px;
+}
+.box .color
+{
+    height: 100px;
+    background-color: rgba(239, 201, 34, 0.978);
+    border-radius: 50px 50px 0 0;
+}
+.box .color h2
+{
+    text-align: center;
+}
+.circle
+{
+    width:120px;
+    height:120px;
+    /* border: 1px solid black; */
+    border-radius: 70px;
+    margin-top: 15px;
+    margin-left: 135px;
+    background-color:black;
+    text-align: center;
+    color: white;
+    padding-top: 45px;
+    font-size: larger;
+}
+.circle:hover{
+    opacity: 0.89;
+}
+.down
+{
+    height: 120px;
+    background-color: rgba(239, 201, 34, 0.978);
+    border-radius: 0 0 50px 50px;
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+}
+.down button{
+    height:60px;
+    width:120px;
+    margin-top: 30px;
+    background-color: rgba(245, 165, 28, 0.978);
+    border-color: rgba(245, 165, 28, 0.978);
+    font-size: larger;
+}
+.down button:active{
+    height:70px;
+    width:130px;
+}
+.box h3{
+    margin-top: 80px;
+    /* margin-left: 30px; */
+    text-align: center;
+    font-weight: 500;
+}
+.box li{
+    margin-left: 50px;
+    font-size: larger;
+    font-weight: 400;
+}

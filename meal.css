@@ -1,7 +1,8 @@
 body{
     margin: 0;
-    background-color: #82C0CC;
+    background-color: #efdf69;
     font-family: cursive;
+    
 }
 .img1
 {
@@ -47,14 +48,14 @@ body{
     height:570px;
     text-align: center;
     padding-top: 40px;
-    background-color: orange;
+    background-color: rgba(239, 201, 34, 0.978);
 }
 .side1 img{
     margin-top: 30px;
 }
 .side1 button{
     margin-top: 30px;
-    background-color: orangered;
+    background-color: rgb(255, 208, 0);
     box-shadow: orangered;
     font-family: cursive;
     border-radius:50px;
@@ -69,16 +70,16 @@ body{
 {
     text-align: center;
     height:570px;
-    background-color:orange;
+    background-color: rgba(239, 201, 34, 0.978);
     color: white;
     /* border: 1px solid black; */
 }
-/* .side2 h2{
-    font-family: cursive;
+.side2 h2{
+    color:black;
 }
 .side2 h3{
-    font-family: cursive;
-} */
+    color:black;
+}
 
 
 

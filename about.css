@@ -113,20 +113,13 @@ h1{
     border-radius: 150px;
     margin-left:230px;
 } 
-/* .yellow h2{
-    font-family: cursive;
-    font-weight: 400;
-    padding-left: 30px;
-    margin-top: 40px;
-    color: orangered;
-} */
+
 .yellow p{
     font-family: cursive;
     font-weight: 400;
     font-size: large;
     padding-left: 30px;
-    /* color: white;
-     */
+   
 }
 @media(max-width:1500px)
 {
@@ -143,32 +136,6 @@ h1{
     
     
 }
-
-
-
-/* .story{
-    text-align:start;
-    /* border: 1px solid black; */
-    /* margin-left: 100px;
-    width:600px;
-    height: 500px;
-}
-.story h1{
-    color: orangered;
-    font-size:70px;
-    margin-top: 0;
-    font-weight: bolder;
-   
-   
-}
-.story p{
-    color: black;
-    font-size: larger;
-    font-weight: 600;
-    
-}
-
-
 
 
 

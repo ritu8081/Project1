@@ -44,3 +44,63 @@ padding-bottom: 5px;
     display: flex;
     align-items: flex-end;
 } 
+ .form
+ {  display: flex;
+   justify-content: space-evenly;
+   /* margin-right: 30px; */
+    margin-left: 30px;
+    /* border: 5px solid black; */
+    width: 96%;
+    height: 600px;
+ }
+.info
+{   display: flex;
+    justify-content: center;
+  
+    /* border: 5px solid black; */
+    width: 600px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding-top: 30px;
+    background-color: rgba(239, 201, 34, 0.978);
+
+
+}
+.contact1
+ {  background-color: white;
+    /* border: 5px solid black; */
+    width: 500px;
+    height: 400px;
+   
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+ }
+
+.CUS
+{
+    /* border: 5px solid black; */
+    width: 600px;
+    height: 500px;
+    margin-top: 50px;
+    margin-right: 10px;
+    background-color: rgba(239, 201, 34, 0.978);
+
+
+}
+.button1
+{
+    margin-left: 35%;
+    margin-right: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size:30px;
+    background-color: rgba(239, 201, 34, 0.978);
+
+}

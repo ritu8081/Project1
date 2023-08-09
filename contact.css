@@ -2,6 +2,7 @@ body
 {
     margin: 0px;
     background-color: #efdf69;
+    font-family: cursive;
 
 
 
@@ -11,7 +12,7 @@ body
     display: flex;
     height: 500px;
     width: 100%;
-    background-image: url(https://media.istockphoto.com/id/1262295023/photo/call-center-desktop-with-headset-and-accessories-on-yellow-table-panoramic-banner-top-view.jpg?s=612x612&w=0&k=20&c=9vU7m3kW3rhZdfxvPyzx-NQeRjyOrzmtN_g14oemnWM=);
+    background-image: url(https://media.istockphoto.com/id/1354140549/vector/contact-glyph-icons-editable-stroke-pixel-perfect-for-mobile-and-web-contains-such-icons-as.jpg?s=612x612&w=0&k=20&c=lkwBMyI6YBaMMbVEcSurkwYPKjwfLYz_c8Ki9seQ95I=);
     background-size: cover;
 }
 
@@ -56,6 +57,7 @@ padding-bottom: 5px;
 .info
 {   display: flex;
     justify-content: center;
+    flex-direction: column;
   
     /* border: 5px solid black; */
     width: 600px;
@@ -69,29 +71,24 @@ padding-bottom: 5px;
 
 
 }
-.contact1
- {  background-color: white;
+.info h1{
+    text-align: center;
+}
+.contact1{
+    justify-content: center;
+    background-color: white;
     /* border: 5px solid black; */
     width: 500px;
     height: 400px;
+    margin-left: 50px;
+    margin-bottom: 30px;
    
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
     padding-top: 10px; 
  }
-
-.CUS
-{
-    /* border: 5px solid black; */
-    width: 600px;
-    height: 500px;
-    margin-top: 50px;
-    margin-right: 10px;
-    background-color: rgba(239, 201, 34, 0.978);
-
-
-}
+ 
 .button1
 {
     margin-left: 35%;
@@ -104,3 +101,11 @@ padding-bottom: 5px;
     background-color: rgba(239, 201, 34, 0.978);
 
 }
+
+.info .contact1.button{
+background-color: grey;
+}
+
+
+
+

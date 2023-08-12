@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    background-color: #efdf69;
+    font-family: cursive;
+    
+}
+.img1
+{
+    background-image: url("https://img.freepik.com/free-vector/student-dormitory-room-with-bunk-laptop-desk-office-chair-bookshelf-vector-cartoon-interior-empty-dorm-bedroom-hostel-apartment-with-wooden-bed-with-ladder-table_107791-9859.jpg?w=1380&t=st=1691727535~exp=1691728135~hmac=2b3e11ce5dd6dd379788be8c94358ee811f83b61720db9166008be5cec5bef83");
+    width: 100%;
+    height:500px;
+    background-size: cover;
+}
+.img1 .black{
+    width: 100%;
+    height:500px;
+    background-color: rgb(24, 1, 1,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1 .black p{
+    color:white;
+    font-size: 50px;
+    font-weight:500;
+
+}
+.heading h3
+{
+    text-align: center;
+     margin-top: 50px;
+    font-family: cursive;
+}
+.heading p
+{
+    text-align: center;
+    font-family: cursive;
+    font-size:50px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.carousel-item .row
+{
+    margin-top: 30px;
+}
+.side1
+{
+    height:570px;
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgba(239, 201, 34, 0.978);
+}
+.side1 img{
+    margin-top: 30px;
+}
+.side1 button{
+    margin-top: 30px;
+    background-color: rgb(255, 208, 0);
+    box-shadow: orangered;
+    font-family: cursive;
+    border-radius:50px;
+    border-color: orangered;
+    padding: 10px;
+    width:150px;
+}
+.side1 h3{
+    font-family: cursive;
+}
+.side2
+{
+    text-align: center;
+    height:570px;
+    background-color: rgba(239, 201, 34, 0.978);
+    color: white;
+    /* border: 1px solid black; */
+}
+.side2 h2{
+    color:black;
+}
+.side2 h3{
+    color:black;
+}
+

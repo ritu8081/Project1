@@ -81,3 +81,12 @@ body{
     color:black;
 }
 
+.hhostel
+{   display: flex;    
+    width: 1000px;
+    height: 600px;
+    border: solid black 5px;
+    margin-left: 17%;
+    
+}
+
